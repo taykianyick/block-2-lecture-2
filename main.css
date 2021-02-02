@@ -1,0 +1,35 @@
+table.one{
+
+    width:20em;
+    text-transform: capitalize;
+    padding:1.5em;
+    border-spacing: 0em;
+    border-collapse:collapse;
+    empty-cells:hide
+    
+
+}
+table.one thead th{
+    color:red;
+    background-color:white;
+}
+table.one th,td {
+    padding:0.75em;
+    border:darkblue solid 2px;
+
+}
+
+table.one td {
+    text-align: right;
+}
+
+table.one tr:nth-child(even) {
+    /*background-color: cadetblue;*/
+    background-color:rgba(95,158,160,0.5)
+
+}
+
+table.one tr:nth-child(odd) {
+    background-color:orange;
+    
+}
